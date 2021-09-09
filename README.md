@@ -1,2 +1,6 @@
 # connection_snippets
-Connection examples
+This repo provides snippets for the following operations in various languages:
+- Connect
+- Create repo
+- Upload data
+- Query
