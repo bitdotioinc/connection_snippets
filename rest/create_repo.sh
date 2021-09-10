@@ -7,8 +7,8 @@ curl --request POST \
      --header 'Content-Type: application/json' \
      --header 'Authorization: Bearer <YOUR_BITIO_KEY>' \
      --data '
-     {
-         "name": "my_new_repo",
-         "description": My new repo."
-     }
-     '
+{
+     "name": "my_new_repo",
+     "description": My new repo."
+}
+'
