@@ -7,7 +7,7 @@ const fetch = require('node-fetch');
 // https://raw.githubusercontent.com/bitdotioinc/connection_snippets/main/video-game-sales.csv
 // Upload to 'my_new_repo' with table name 'video_game_sales_csv'
 // TBD - still figuring this one out
-// const url = 'https://import.bit.io/snippet_tester/my_new_repo/video_game_sales_csv2';
+// const url = 'https://import.bit.io/snippet_tester/my_new_repo/video_game_sales_csv';
 // let stream = fs.createReadStream('video-game-sales.txt');
 // const stats = fs.statSync("video-game-sales.csv");
 // const fileSizeInBytes = stats.size;
