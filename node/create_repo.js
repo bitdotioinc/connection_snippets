@@ -14,7 +14,10 @@ const options = {
     'Content-Type': 'application/json',
     Authorization: 'Bearer <YOUR_BITIO_KEY>'
   },
-  body: JSON.stringify({name: 'my_new_repo', is_private: true})
+  body: JSON.stringify({
+    name: 'my_new_repo',
+    is_private: true,
+    description: 'My new repository'})
 };
 
 fetch(url, options)
