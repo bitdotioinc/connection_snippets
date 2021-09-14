@@ -8,8 +8,6 @@ let fs = require('fs');
 // Upload to 'my_new_repo' with table name 'video_game_sales_csv'
 const url = 'https://import.bit.io/<YOUR_USERNAME>/my_new_repo/video_game_sales_csv';
 let stream = fs.readFileSync('video-game-sales.csv');
-const stats = fs.statSync("video-game-sales.csv");
-const fileSizeInBytes = stats.size;
 
 const options = {
     method: 'POST',
